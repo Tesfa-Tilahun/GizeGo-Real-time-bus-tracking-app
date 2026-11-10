@@ -1,0 +1,15 @@
+export const colors = {
+  headerStart: "#8ebdd4",
+  headerEnd: "#6a9db8",
+  buttonStart: "#7a9bab",
+  buttonEnd: "#5c7d8f",
+  accentBlue: "#3d7ea6",
+  accentHighlight: "#5ba3d4",
+  white: "#ffffff",
+  textDark: "#2c3e50",
+  textMuted: "#5c6c7c",
+  border: "#d0d8de",
+  bannerBg: "#5b8ec9",
+  footerStart: "#7a9bab",
+  footerEnd: "#5c7d8f",
+};

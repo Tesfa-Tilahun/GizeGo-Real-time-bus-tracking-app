@@ -1,0 +1,62 @@
+{
+  "expo": {
+    "name": "GizeGo",
+    "slug": "mobile",
+    "scheme": "gizego",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.gizego.mobile"
+    },
+    "android": {
+      "package": "com.gizego.mobile",
+      "usesCleartextTraffic": true,
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "POST_NOTIFICATIONS"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-web-browser",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "GizeGo uses your location in Ethiopia to show your real-time position on the map and find nearby buses.",
+          "locationWhenInUsePermission": "GizeGo uses your location in Ethiopia to show your real-time position on the map and find nearby buses."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#1a73e8"
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "GizeGo lets drivers upload a profile photo from your library."
+        }
+      ]
+    ]
+  }
+}
